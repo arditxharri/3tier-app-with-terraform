@@ -41,7 +41,7 @@ image_id = "ami-0fa6d4317e4631925"
               # Set environment variables (injected by Terraform)
               export DB_HOST="${aws_db_instance.mysql.address}"
               export DB_USER="admin"
-              export DB_PASS="Do2025runningAPP"
+              export DB_PASS="db-pass"
               export DB_NAME="webappdb"
 
               # Start the app with PM2 using environment variables
